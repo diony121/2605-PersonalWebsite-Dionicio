@@ -1,0 +1,89 @@
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(117, 209, 255);
+}
+
+.navMenu {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-end;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+
+
+.navMenu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.navMenu a:hover {
+  background-color: gray;
+  color: white;
+}
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.mainContent {
+  display: flex;
+  font-size: 2rem;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.profileImage img {
+  width: 100%;
+  max-width: 800px;
+  min-width: 200px;
+  margin-top: 50px;
+}
+.hightlight {
+  color: blue;
+}
+.quote {
+  background-color: rgb(216, 230, 251);
+  width: 80%;
+  margin: 0 auto;
+}
+.quote blockquote {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.quote p {
+  text-align: right;
+  margin-right: 55px;
+}
+blockquote {
+  text-align: center;
+}
+footer {
+  background-color: rgb(117, 209, 255);
+  color: black;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}

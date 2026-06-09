@@ -11,8 +11,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  margin-left: 5px;
-  margin-right: 5px;
   background-color: rgb(117, 209, 255);
 }
 

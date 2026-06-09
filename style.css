@@ -125,6 +125,33 @@ footer {
 .hobbiesSection h4{
   text-align: center;
   font-size: 1.5rem;
+}
 
+.contactSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.contactProfile img {
+  width: 50%;
+}
+form label{
+  font-weight: bold;
+}
+form input {
+  font-size:1.25rem;
+}
+.formSection {
+}
+.formSection form input, textarea, button {
+  width: 80%;
+  height: 2rem;
+}
+button {
+  background-color: blue;
+  color: white;
+  font-size: 2rem;
+  height: auto;
+  border-radius: 5px;
 }
 
